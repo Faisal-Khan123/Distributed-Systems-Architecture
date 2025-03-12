@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="USuxYv9XPbnceh0MRkEU">
-    <mxGraphModel dx="1877" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6434" dy="3676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,71 +34,83 @@
         <mxCell id="0Ji5A2vdFTpOfctsB-qt-1" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;1. Central user login and authorization management.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;2. Central master data repository (customer database).&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;3. Service for sending notifications (push notifications and/or e-&amp;nbsp; mail) to end-users.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;4. Service for computation-intensive calculations (ML-based&amp;nbsp; &amp;nbsp;credit card fraud detection).&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;5. Service for storing the training data and predictions of the&amp;nbsp; &amp;nbsp;models.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;6. Web user interface.&lt;/font&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-10" y="-160" width="720" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-1" value="Credit Card Fraud Detection Agents" style="shape=umlActor;" parent="1" vertex="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-1" value="Credit Card Fraud Detection Agents" style="shape=umlActor;" vertex="1" parent="1">
           <mxGeometry x="-770" y="80" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-2" value="System Administrators" style="shape=umlActor;" parent="1" vertex="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-2" value="System Administrators" style="shape=umlActor;" vertex="1" parent="1">
           <mxGeometry x="-770" y="180" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-3" value="Credit Card Fraud Detection System" style="shape=rectangle;" parent="1" vertex="1">
-          <mxGeometry x="-630" y="-30" width="510" height="390" as="geometry" />
+        <mxCell id="hKYB33OC29xuQnpMXn42-3" value="Credit Card Fraud Detection System" style="shape=rectangle;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="-30" width="510" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-4" value="Web User Interface" style="shape=component;" parent="hKYB33OC29xuQnpMXn42-3" vertex="1">
-          <mxGeometry x="63.74999999999999" y="19.499999999999996" width="153" height="64.99999999999999" as="geometry" />
+        <mxCell id="hKYB33OC29xuQnpMXn42-4" value="Web User Interface" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
+          <mxGeometry x="30" y="19.499999999999996" width="153" height="64.99999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-5" value="User Authentication Service" style="shape=component;" parent="hKYB33OC29xuQnpMXn42-3" vertex="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-5" value="User Authentication Service" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
           <mxGeometry x="63.74999999999999" y="123.49999999999999" width="191.24999999999997" height="64.99999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-6" value="Customer Database" style="shape=component;" parent="hKYB33OC29xuQnpMXn42-3" vertex="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-6" value="Customer Database" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
           <mxGeometry x="338.75" y="94.86486486486486" width="161.25" height="57.97297297297297" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-7" value="Fraud Detection Service" style="shape=component;" parent="hKYB33OC29xuQnpMXn42-3" vertex="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-7" value="Fraud Detection Service" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
           <mxGeometry x="63.74999999999999" y="233.99999999999994" width="229.49999999999997" height="64.99999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-8" value="Data Storage Service" style="shape=component;" parent="hKYB33OC29xuQnpMXn42-3" vertex="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-8" value="Data Storage Service" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
           <mxGeometry x="318.75" y="242.43243243243242" width="181.25" height="56.571081081081076" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-9" value="Notification Service" style="shape=component;" parent="hKYB33OC29xuQnpMXn42-3" vertex="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-9" value="Notification Service" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
           <mxGeometry x="191.25" y="338" width="188.75" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-10" parent="1" source="hKYB33OC29xuQnpMXn42-1" target="hKYB33OC29xuQnpMXn42-4" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-10" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-1" target="hKYB33OC29xuQnpMXn42-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-11" parent="1" source="hKYB33OC29xuQnpMXn42-2" target="hKYB33OC29xuQnpMXn42-4" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-11" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-2" target="hKYB33OC29xuQnpMXn42-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-12" parent="1" source="hKYB33OC29xuQnpMXn42-4" target="hKYB33OC29xuQnpMXn42-5" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-12" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-4" target="hKYB33OC29xuQnpMXn42-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-13" parent="1" source="hKYB33OC29xuQnpMXn42-5" target="hKYB33OC29xuQnpMXn42-6" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-13" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-5" target="hKYB33OC29xuQnpMXn42-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-14" parent="1" source="hKYB33OC29xuQnpMXn42-4" target="hKYB33OC29xuQnpMXn42-7" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-14" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-4" target="hKYB33OC29xuQnpMXn42-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-15" parent="1" source="hKYB33OC29xuQnpMXn42-7" target="hKYB33OC29xuQnpMXn42-6" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-15" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-7" target="hKYB33OC29xuQnpMXn42-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-16" parent="1" source="hKYB33OC29xuQnpMXn42-7" target="hKYB33OC29xuQnpMXn42-8" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-16" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-7" target="hKYB33OC29xuQnpMXn42-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-17" parent="1" source="hKYB33OC29xuQnpMXn42-7" target="hKYB33OC29xuQnpMXn42-9" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-17" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-7" target="hKYB33OC29xuQnpMXn42-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-18" parent="1" source="hKYB33OC29xuQnpMXn42-8" target="hKYB33OC29xuQnpMXn42-7" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-18" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-8" target="hKYB33OC29xuQnpMXn42-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hKYB33OC29xuQnpMXn42-19" parent="1" source="hKYB33OC29xuQnpMXn42-9" target="hKYB33OC29xuQnpMXn42-1" edge="1">
+        <mxCell id="hKYB33OC29xuQnpMXn42-19" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-9" target="hKYB33OC29xuQnpMXn42-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKYB33OC29xuQnpMXn42-21" value="&#xa;  &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="30" height="740" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-1" value="Credit card fraud detection system" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="60" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="hKYB33OC29xuQnpMXn42-22" value="&#xa;  &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="30" height="740" as="geometry" />
+        </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2dHNPo27WO1Mkap-W8mN-2" target="2dHNPo27WO1Mkap-W8mN-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hKYB33OC29xuQnpMXn42-23" value="&#xa;  &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="30" height="740" as="geometry" />
+        </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2dHNPo27WO1Mkap-W8mN-2" target="2dHNPo27WO1Mkap-W8mN-15">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKYB33OC29xuQnpMXn42-24" value="&#xa;  &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;      &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;    &#xa;  &#xa;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="30" height="740" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-2" value="Transaction Analysis Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="485" y="270" width="120" height="60" as="geometry" />
