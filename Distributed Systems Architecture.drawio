@@ -4,14 +4,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QUnVZabD3jAlZHyOa0Sr-1" value="Credit&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Card&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;fraud detection agents&lt;/span&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="180" width="30" height="60" as="geometry" />
+        <mxCell id="luGG8L6NpVET7iOfrZ5E-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QUnVZabD3jAlZHyOa0Sr-1" target="luGG8L6NpVET7iOfrZ5E-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QUnVZabD3jAlZHyOa0Sr-1" value="Credit c&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ard&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;fraud detection agents&lt;/span&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luGG8L6NpVET7iOfrZ5E-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QUnVZabD3jAlZHyOa0Sr-2" target="luGG8L6NpVET7iOfrZ5E-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QUnVZabD3jAlZHyOa0Sr-2" value="System administrators" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="360" width="30" height="60" as="geometry" />
+          <mxGeometry x="50" y="360" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P8tNy1iYW3qsByZ3YsKK-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="160" width="570" height="320" as="geometry" />
+        <mxCell id="P8tNy1iYW3qsByZ3YsKK-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="90" width="690" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="luGG8L6NpVET7iOfrZ5E-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="luGG8L6NpVET7iOfrZ5E-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="170" y="370" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
