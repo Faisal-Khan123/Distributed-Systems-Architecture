@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="USuxYv9XPbnceh0MRkEU">
-    <mxGraphModel dx="2193" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1551" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
           <mxGeometry width="30" height="740" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-2" value="Transaction Analysis Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="230" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2dHNPo27WO1Mkap-W8mN-3" target="2dHNPo27WO1Mkap-W8mN-7">
           <mxGeometry relative="1" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-4" value="Admin Dashboard" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="370" width="116" height="60" as="geometry" />
+          <mxGeometry x="260" y="310" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-5" value="Customer Records DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="110" width="120" height="60" as="geometry" />
@@ -94,13 +94,13 @@
         <mxCell id="2dHNPo27WO1Mkap-W8mN-15" value="AI Fraud Data Storage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2dHNPo27WO1Mkap-W8mN-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="660" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="2dHNPo27WO1Mkap-W8mN-19" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Audit Logs Viewer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="440" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2dHNPo27WO1Mkap-W8mN-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="2dHNPo27WO1Mkap-W8mN-20" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;User Management Panel&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="320" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2dHNPo27WO1Mkap-W8mN-21" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Transaction Review Pane&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2dHNPo27WO1Mkap-W8mN-21" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Transaction Review Panel&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="145" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-27" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Case Management System&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -108,6 +108,9 @@
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-28" value="&lt;strong data-end=&quot;558&quot; data-start=&quot;530&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Fraud Reports &amp;amp; Insights&lt;/font&gt;&lt;/strong&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="255" width="80" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="2dHNPo27WO1Mkap-W8mN-29" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;System Configuration Panel&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="355" width="75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
