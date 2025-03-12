@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="USuxYv9XPbnceh0MRkEU">
-    <mxGraphModel dx="1562" dy="1555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1602" dy="1575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,25 +35,25 @@
           <mxGeometry x="-770" y="180" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hKYB33OC29xuQnpMXn42-3" value="Credit Card Fraud Detection System" style="shape=rectangle;" vertex="1" parent="1">
-          <mxGeometry x="-630" y="-20" width="510" height="370" as="geometry" />
+          <mxGeometry x="-630" y="-30" width="510" height="390" as="geometry" />
         </mxCell>
         <mxCell id="hKYB33OC29xuQnpMXn42-4" value="Web User Interface" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
-          <mxGeometry x="63.74999999999999" y="18.5" width="153" height="61.666666666666664" as="geometry" />
+          <mxGeometry x="63.74999999999999" y="19.499999999999996" width="153" height="64.99999999999999" as="geometry" />
         </mxCell>
         <mxCell id="hKYB33OC29xuQnpMXn42-5" value="User Authentication Service" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
-          <mxGeometry x="63.74999999999999" y="117.16666666666667" width="191.24999999999997" height="61.666666666666664" as="geometry" />
+          <mxGeometry x="63.74999999999999" y="123.49999999999999" width="191.24999999999997" height="64.99999999999999" as="geometry" />
         </mxCell>
         <mxCell id="hKYB33OC29xuQnpMXn42-6" value="Customer Database" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
-          <mxGeometry x="318.75" y="130" width="161.25" height="55" as="geometry" />
+          <mxGeometry x="338.75" y="94.86486486486486" width="161.25" height="57.97297297297297" as="geometry" />
         </mxCell>
         <mxCell id="hKYB33OC29xuQnpMXn42-7" value="Fraud Detection Service" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
-          <mxGeometry x="63.74999999999999" y="221.99999999999997" width="229.49999999999997" height="61.666666666666664" as="geometry" />
+          <mxGeometry x="63.74999999999999" y="233.99999999999994" width="229.49999999999997" height="64.99999999999999" as="geometry" />
         </mxCell>
         <mxCell id="hKYB33OC29xuQnpMXn42-8" value="Data Storage Service" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
-          <mxGeometry x="318.75" y="230" width="181.25" height="53.67" as="geometry" />
+          <mxGeometry x="318.75" y="242.43243243243242" width="181.25" height="56.571081081081076" as="geometry" />
         </mxCell>
         <mxCell id="hKYB33OC29xuQnpMXn42-9" value="Notification Service" style="shape=component;" vertex="1" parent="hKYB33OC29xuQnpMXn42-3">
-          <mxGeometry x="191.24999999999997" y="320.6666666666667" width="191.24999999999997" height="61.666666666666664" as="geometry" />
+          <mxGeometry x="191.25" y="338" width="188.75" height="42" as="geometry" />
         </mxCell>
         <mxCell id="hKYB33OC29xuQnpMXn42-10" edge="1" parent="1" source="hKYB33OC29xuQnpMXn42-1" target="hKYB33OC29xuQnpMXn42-4">
           <mxGeometry relative="1" as="geometry" />
