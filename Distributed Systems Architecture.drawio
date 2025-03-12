@@ -20,19 +20,19 @@
           <mxGeometry x="50" y="360" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P8tNy1iYW3qsByZ3YsKK-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="210" y="90" width="950" height="530" as="geometry" />
+          <mxGeometry x="180" y="90" width="980" height="530" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luGG8L6NpVET7iOfrZ5E-1" target="2dHNPo27WO1Mkap-W8mN-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="luGG8L6NpVET7iOfrZ5E-1" value="Entry Point for Agents" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="170" y="200" width="60" height="60" as="geometry" />
+          <mxGeometry x="150" y="200" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2dHNPo27WO1Mkap-W8mN-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="luGG8L6NpVET7iOfrZ5E-4" target="2dHNPo27WO1Mkap-W8mN-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="luGG8L6NpVET7iOfrZ5E-4" value="Entry Point for Admins" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="170" y="370" width="60" height="60" as="geometry" />
+          <mxGeometry x="150" y="370" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0Ji5A2vdFTpOfctsB-qt-1" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;1. Central user login and authorization management.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;2. Central master data repository (customer database).&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;3. Service for sending notifications (push notifications and/or e-&amp;nbsp; mail) to end-users.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;4. Service for computation-intensive calculations (ML-based&amp;nbsp; &amp;nbsp;credit card fraud detection).&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;5. Service for storing the training data and predictions of the&amp;nbsp; &amp;nbsp;models.&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Helvetica&quot;&gt;&amp;nbsp;6. Web user interface.&lt;/font&gt;&lt;/div&gt;" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-10" y="-160" width="720" height="160" as="geometry" />
